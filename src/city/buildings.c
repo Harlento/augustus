@@ -80,7 +80,9 @@ void city_buildings_remove_mess_hall(void)
     city_data.building.mess_hall_building_id = 0;
 }
 
-int city_buildings_get_mess_hall(void) 
+
+
+int city_buildings_get_mess_hall(void)
 {
     return city_data.building.mess_hall_building_id;
 }
